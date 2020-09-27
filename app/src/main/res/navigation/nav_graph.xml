@@ -7,9 +7,8 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.androidtask5.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:name="com.example.androidtask5.NotepadFragment"
+        tools:layout="@layout/fragment_notepad">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
@@ -17,9 +16,8 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.androidtask5.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:name="com.example.androidtask5.AddNoteFragment"
+        tools:layout="@layout/fragment_add_note">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
